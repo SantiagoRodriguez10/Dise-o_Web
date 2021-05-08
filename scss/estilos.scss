@@ -1,0 +1,394 @@
+/* Color header #2a9d8f */
+/* Color section */
+/* Color footer #2a9d8f */
+/* Etiquetas */
+/**{
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+  
+}*/
+
+body {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    background-color: #264653;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #2a9d8f;
+    font-family: 'Montserrat';
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    display: grid;
+  }
+  
+  section {
+    font-family: 'Montserrat';
+    color: white;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #2a9d8f;
+    font-family: 'Montserrat';
+    text-align: left;
+    color: white;
+    font-size: 10px;
+  }
+  
+  
+  table {
+    background-color: beige;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    color: #264653;
+  }
+  
+  th,
+  td {
+    padding: 20px;
+  }
+  thead {
+    background-color: #2a9d8f;
+    border-bottom: solid 5px #A03E99;
+  
+  }
+  h1:hover{
+    color:black;
+  }
+  h2:hover{
+    color: #000;
+  }
+  h3:hover {
+    color: #000;
+  }
+  a:visited{
+    color: white;
+  }
+  a:hover{
+    color:purple;
+  }
+  a:active{
+    color:purple;
+  }
+
+//  variables
+  $color-navfoot:#2a9d8f;
+  $color-section:#264653;
+//   height & widht img index
+  $altoindex:320px;
+  $anchoindex:361px;
+// margin y ancho Formulario
+  $paddingform:10px;  
+  $altoform:20px;  
+// height & widht img empresa  
+$altoempresa: 540px;  
+$anchoempresa: 440px;
+
+  .linea {
+    border-left: 1px solid black;
+    margin-right: 5px;
+  
+  }
+// MIXIN IMAGENES Y TEXTO
+@mixin medidaImagenes {
+    height: 320px;
+    width: 361px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 12px;
+    margin-right: 15px;
+    transition: all 2s;
+}
+@mixin medidaTexto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+// BUCLE
+@for $botones from 1 to 5 {
+    .btn--#{$botones} {margin-top: 2px * $botones;}
+}
+// EACH
+@each $buttons in empresa, quehacemos, capacitaciones, contacto {
+    .#{$buttons}--btn{
+          font-size: 20px;
+    }
+}
+// MAP - Color links
+$linkColor: (
+      color1: rgba(255, 192, 203, 0.973),
+      color2: rgb(111, 111, 204),
+      color3: rgb(132, 188, 226)
+);
+// BUCLE DE MAP
+@each $link, $color in $linkColor {
+    a.navlink--#{$link}{
+      color: $color;
+    }
+}
+  /* Clases--------------------------------------------------------------------------------------------------------------------------------- */
+  .h1 {
+    color: #A03E99;
+  }
+  
+  
+  .titulo {
+    color: #A03E99;
+  }
+  
+
+  
+  .title {
+    font-family: 'Montserrat';
+    font-size: 40px;
+  }
+  
+  
+  /* Colores y fondos separados-------------------------------------------------------------------------------------------------------------- */
+  .bgBody {
+    background-color: $color-section;
+  }
+  
+  .bgW {
+    background-color: white;
+  }
+  
+  .bgHeader {
+    background-color: #2a9d8f;
+  }
+  
+  
+  
+  /* HEADER --------------------------------------------------------------------------------------------------------------------------------- */
+  
+  .header{
+    background-color: $color-navfoot;
+    .header__imagen {
+        width: 150px;
+        height: 150px;
+        display: block;
+        margin-right: auto;
+        margin-left: 70px;
+        margin: 20px;
+      }
+      .header__ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        letter-spacing: 5px;
+        margin-right: 10px;
+        
+        .header__colorW {
+            color: white;
+        }
+            .header__link {
+            text-decoration: none;
+            }
+            .header__linea {
+                border-left: 1px solid black;
+                margin-right: 5px;
+              
+            }
+     }
+}
+
+  /*FOOTER-------------------------------------------------------------------------------------------------------------------------------  */
+  .footer {
+    color: aliceblue;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+    .footer__redes {
+        margin-left: 10px;
+      
+    } 
+    .footer__titulo{
+        font-size: 20px;
+      }
+}
+  
+  .ig {
+    margin-left: 10px;
+  }
+  
+  /* INDEX ---------------------------------------------------------------------------------------------------------------------------------*/ 
+  .index{
+  background-color: $color-section;
+    .index__imagen{
+        @include medidaImagenes}
+    .index__imagen{
+        @include medidaImagenes}
+    .index__imagen{
+        @include medidaImagenes}
+    .index__imagen{
+        @include medidaImagenes;
+    &:hover{
+        height: $altoindex+100;
+        width: $anchoindex+100;
+      }
+      
+    } 
+      
+ 
+ .index__texto {
+    @include medidaTexto
+  }
+ .index__colorW {
+    color: white;
+}
+ .index__link {
+    text-decoration: none;
+    }
+  .index__titulo {
+    font-family: 'Montserrat';
+    font-size: 40px;
+  }
+}
+/* EMPRESA--------------------------------------------------------------------------------------------------------------------------------- */
+.empresa{
+    background-color: $color-section;
+.empresa__texto {
+    @include medidaTexto
+  }
+  .empresa__imagen {
+    width: 440px;
+    height: 540px;
+    transition: 2s;
+  
+    &:hover{ 
+    height:$altoempresa+100;
+    width:$anchoempresa+100;
+   }
+ } 
+}
+  /* QUE HACEMOS?----------------------------------------------------------------------------------------------------------------------------- */
+.queHacemos{
+    background-color: $color-section;
+
+  .queHacemos__table {
+    width: 80%;
+    display: block;
+    margin: auto
+  }
+  
+  .queHacemos__texto {
+    @include medidaTexto
+  }
+}
+  
+  /* CAPACITACIONES------------------------------------------------------------------------------------------------------------------------- */
+  .capacitaciones{
+    border-top: 1px solid #264653;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-image: linear-gradient(#2a9d8f,#264653);
+    grid-template-rows: repeat(4 1fr);
+    gap: 1em;
+    .capacitaciones__texto {
+        @include medidaTexto
+      }
+      .capacitaciones__ul{
+        list-style: none;
+      }
+} 
+  /* CONTACTO ------------------------------------------------------------------------------------------------------------------------------*/
+.contacto{
+  background-color: $color-section;   
+  .formulario__texto{
+    @include medidaTexto}
+    .formulario__padding{
+        padding-bottom: $paddingform;
+      }
+      .formulario__separador {
+        height: $altoform;
+      }
+ 
+}   
+  input{
+    width: 200px; height: 30px;
+    transition: all 2s;
+  }
+  input[type=checkbox] {
+    width: 20px;
+  }
+  input:focus{
+    width: 269px; font-size: 24px;
+  }
+  /* MOBILE---------------------------------------------------------------------------------------------------------------------------------- */
+  @media screen and (min-width: 576px) {
+    .divFlex {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+  
+    .footUl div {
+      text-align: center;
+    }
+  
+    .divNav {
+      margin: 0;
+    }
+    header{
+      font-size: 10px;
+    }
+  
+    img.imgSec {
+      height: 300px;
+      width: 341px;
+      transition: all 2s;
+    }
+    img.imgSec:hover{
+      height: 380px;
+      width: 400px;
+    }
+  
+  
+  }
+  
+  @media screen and (max-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr !important;
+    }
+  
+    .imagen {
+      width: 330px;
+      height: 330px;
+    }
+  
+    .imgSec {
+      width: 100%;
+      height: auto;
+    }
+  
+    header {
+      font-size: 29px !important;
+      justify-items: center;
+    }
+  
+    .divFlex {
+      justify-content: space-around;
+      align-items: center;
+    }
+  
+    .footUl {
+      grid-template-columns: 1fr;
+  
+    }
+    table.table {
+      width: 100%;
+      font-size: 12px;
+    }
+  }

@@ -1,0 +1,48 @@
+.colorHeader {
+    background-color: #2a9d8f;
+}
+.center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+  .aSpace{
+    margin-left: 10px;
+  }
+  .linea {
+    border-left: 1px solid black;
+    margin-right: 5px;
+  
+  }
+  .imagen{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: 70px;
+    margin: 20px;
+  }
+@media (min-width: 576px) { 
+    .imagen{
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-right: auto;
+    margin-left: 70px;
+  margin: 20px;
+    }
+
+}
+
+
+@media (min-width: 768px) { 
+    .imagen{
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin-right: auto;
+    margin-left: 70px;
+  margin: 20px;
+    }
+
+}
