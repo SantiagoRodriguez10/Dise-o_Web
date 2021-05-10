@@ -79,6 +79,7 @@ body {
 //  variables
   $color-navfoot:#2a9d8f;
   $color-section:#264653;
+  $color-footer: rgb(93, 200, 165);
 //   height & widht img index
   $altoindex:320px;
   $anchoindex:361px;
@@ -123,18 +124,7 @@ $anchoempresa: 440px;
           font-size: 20px;
     }
 }
-// MAP - Color links
-$linkColor: (
-      color1: rgba(255, 192, 203, 0.973),
-      color2: rgb(111, 111, 204),
-      color3: rgb(132, 188, 226)
-);
-// BUCLE DE MAP
-@each $link, $color in $linkColor {
-    a.navlink--#{$link}{
-      color: $color;
-    }
-}
+
   /* Clases--------------------------------------------------------------------------------------------------------------------------------- */
   .h1 {
     color: #A03E99;
@@ -179,6 +169,7 @@ $linkColor: (
         margin-right: auto;
         margin-left: 70px;
         margin: 20px;
+        font-size: 20px;
       }
       .header__ul {
         display: flex;
@@ -186,7 +177,7 @@ $linkColor: (
         flex-wrap: wrap;
         letter-spacing: 5px;
         margin-right: 10px;
-        
+        font-size: 15px;
         .header__colorW {
             color: white;
         }
@@ -203,18 +194,24 @@ $linkColor: (
 
   /*FOOTER-------------------------------------------------------------------------------------------------------------------------------  */
   .footer {
-    color: aliceblue;
+    background-color: $color-footer;
+    color: black;
     display: block;
     margin-right: auto;
     margin-left: auto;
     display: flex;
     list-style: none;
     .footer__redes {
-        margin-left: 10px;
+        margin-left: 5px;
       
+    }
+    .footer__titulo1{
+      font-size: 20px;
+      margin-left: 10px;
     } 
-    .footer__titulo{
+    .footer__titulo2{
         font-size: 20px;
+        margin-right: 20px;
       }
 }
   

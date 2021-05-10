@@ -95,15 +95,6 @@ a:active {
 .contacto--btn {
   font-size: 20px; }
 
-a.navlink--color1 {
-  color: rgba(255, 192, 203, 0.973); }
-
-a.navlink--color2 {
-  color: #6f6fcc; }
-
-a.navlink--color3 {
-  color: #84bce2; }
-
 /* Clases--------------------------------------------------------------------------------------------------------------------------------- */
 .h1 {
   color: #A03E99; }
@@ -134,13 +125,15 @@ a.navlink--color3 {
     display: block;
     margin-right: auto;
     margin-left: 70px;
-    margin: 20px; }
+    margin: 20px;
+    font-size: 20px; }
   .header .header__ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     letter-spacing: 5px;
-    margin-right: 10px; }
+    margin-right: 10px;
+    font-size: 15px; }
     .header .header__ul .header__colorW {
       color: white; }
     .header .header__ul .header__link {
@@ -151,16 +144,21 @@ a.navlink--color3 {
 
 /*FOOTER-------------------------------------------------------------------------------------------------------------------------------  */
 .footer {
-  color: aliceblue;
+  background-color: #5dc8a5;
+  color: black;
   display: block;
   margin-right: auto;
   margin-left: auto;
   display: flex;
   list-style: none; }
   .footer .footer__redes {
+    margin-left: 5px; }
+  .footer .footer__titulo1 {
+    font-size: 20px;
     margin-left: 10px; }
-  .footer .footer__titulo {
-    font-size: 20px; }
+  .footer .footer__titulo2 {
+    font-size: 20px;
+    margin-right: 20px; }
 
 .ig {
   margin-left: 10px; }
