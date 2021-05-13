@@ -77,7 +77,7 @@ body {
   }
 
 //  variables
-  $color-navfoot:#2a9d8f;
+  $color-nav:#2a9d8f;
   $color-section:#264653;
   $color-footer: rgb(93, 200, 165);
 //   height & widht img index
@@ -161,7 +161,8 @@ $anchoempresa: 440px;
   /* HEADER --------------------------------------------------------------------------------------------------------------------------------- */
   
   .header{
-    background-color: $color-navfoot;
+    background-color: $color-nav;
+    
     .header__imagen {
         width: 150px;
         height: 150px;
