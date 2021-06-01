@@ -89,7 +89,9 @@ body {
 // height & widht img empresa  
 $altoempresa: 540px;  
 $anchoempresa: 440px;
-
+// height y widht img capacitaciones
+$altocapacitaciones: 460px;
+$anchocapacitaciones: 80%;
   .linea {
     border-left: 1px solid black;
     margin-right: 5px;
@@ -156,7 +158,13 @@ $anchoempresa: 440px;
     background-color: #2a9d8f;
   }
   
-  
+  .carText{
+    font-size: 20px;
+      background: rgba(255,255,255, .2);
+      font-weight: 100px;
+      text-shadow: grey;
+      font-weight: bold;
+  }
   
   /* HEADER --------------------------------------------------------------------------------------------------------------------------------- */
   
@@ -239,8 +247,8 @@ $anchoempresa: 440px;
     } 
     .imgCar{
       width: 100%;
-      height: 500px;
-  }     
+      height: 450px;
+  }    
  
  .index__texto {
     @include medidaTexto
@@ -263,10 +271,10 @@ $anchoempresa: 440px;
     @include medidaTexto
   }
   .empresa__imagen {
-    width: 440px;
-    height: 540px;
+    width: $anchoempresa;
+    height: $altoempresa;
     transition: 2s;
-  
+    border: 10px solid white; 
     &:hover{ 
     height:$altoempresa+100;
     width:$anchoempresa+100;
@@ -280,9 +288,12 @@ $anchoempresa: 440px;
   .queHacemos__table {
     width: 80%;
     display: block;
-    margin: auto
+    margin: auto;
+    margin-bottom: 30px;
   }
-  
+  .queHacemos__tablemob{
+    list-style: none;
+  }
   .queHacemos__texto {
     @include medidaTexto
   }
@@ -291,14 +302,17 @@ $anchoempresa: 440px;
   /* CAPACITACIONES------------------------------------------------------------------------------------------------------------------------- */
   .capacitaciones{
     border-top: 1px solid #264653;
-    display: grid;
-    grid-template-columns: 1fr;
     background-image: linear-gradient(#2a9d8f,#264653);
-    grid-template-rows: repeat(4 1fr);
-    gap: 1em;
     .capacitaciones__texto {
         @include medidaTexto
       }
+    .capacitaciones__imagen{
+      width: $anchocapacitaciones;
+    height: $altocapacitaciones;
+    transition: 2s;
+    border: 10px solid white;
+    overflow: hidden;
+     }
       .capacitaciones__ul{
         list-style: none;
       }
@@ -327,35 +341,15 @@ $anchoempresa: 440px;
     width: 269px; font-size: 24px;
   }
   /* MOBILE---------------------------------------------------------------------------------------------------------------------------------- */
-  @media screen and (min-width: 576px) {
-    .divFlex {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-    }
-  
-    .footUl div {
-      text-align: center;
-    }
-  
-    .divNav {
-      margin: 0;
-    }
+  @media screen and (min-width: 375px) {
+    
     header{
       font-size: 10px;
     }
-  
-    img.imgSec {
-      height: 300px;
-      width: 341px;
-      transition: all 2s;
+    img.capacitaciones__imagen{
+      height: 350px;
+      width: 340px;
     }
-    img.imgSec:hover{
-      height: 380px;
-      width: 400px;
-    }
-  
   
   }
   
@@ -393,3 +387,4 @@ $anchoempresa: 440px;
       font-size: 12px;
     }
   }
+
