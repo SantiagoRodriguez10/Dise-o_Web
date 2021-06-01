@@ -285,7 +285,10 @@ a:active {
     border: 10px solid white;
     overflow: hidden; }
   .capacitaciones .capacitaciones__ul {
-    list-style: none; }
+    list-style: none;
+    background: rgba(255, 255, 255, 0.2);
+    font-weight: 100px;
+    text-shadow: grey; }
 
 /* CONTACTO ------------------------------------------------------------------------------------------------------------------------------*/
 .contacto {
