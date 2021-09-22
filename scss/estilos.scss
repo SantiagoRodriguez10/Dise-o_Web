@@ -39,6 +39,9 @@ body {
     font-size: 10px;
   }
   
+  div{
+    border:none;
+  }
   
   table {
     background-color: beige;
@@ -90,8 +93,8 @@ body {
 $altoempresa: 540px;  
 $anchoempresa: 440px;
 // height y widht img capacitaciones
-$altocapacitaciones: 460px;
-$anchocapacitaciones: 80%;
+$altocapacitaciones: 500px;
+$anchocapacitaciones: 85%;
   .linea {
     border-left: 1px solid black;
     margin-right: 5px;
@@ -306,10 +309,16 @@ $anchocapacitaciones: 80%;
     .capacitaciones__texto {
         @include medidaTexto
       }
+    .capacitaciones__carga{
+      border-collapse: collapse;
+    }  
+    .capacitaciones__boton{
+      background-color: #2a9d8f;
+      border-top: 60px;
+    }
     .capacitaciones__imagen{
       width: $anchocapacitaciones;
     height: $altocapacitaciones;
-    transition: 2s;
     border: 10px solid white;
     overflow: hidden;
      }

@@ -1,0 +1,518 @@
+/* Color header #2a9d8f */
+/* Color section */
+/* Color footer #2a9d8f */
+/* Etiquetas */
+/**{
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+  
+}*/
+body {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  background-color: #264653;
+  margin: 0;
+}
+
+header {
+  background-color: #2a9d8f;
+  font-family: 'Montserrat';
+  color: aliceblue;
+  font-size: 20px;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+}
+
+section {
+  font-family: 'Montserrat';
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: #2a9d8f;
+  font-family: 'Montserrat';
+  text-align: left;
+  color: white;
+  font-size: 10px;
+}
+
+div {
+  border: none;
+}
+
+table {
+  background-color: beige;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+  color: #264653;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+thead {
+  background-color: #2a9d8f;
+  border-bottom: solid 5px #A03E99;
+}
+
+h1:hover {
+  color: black;
+}
+
+h2:hover {
+  color: #000;
+}
+
+h3:hover {
+  color: #000;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: purple;
+}
+
+a:active {
+  color: purple;
+}
+
+.linea {
+  border-left: 1px solid black;
+  margin-right: 5px;
+}
+
+.btn--1 {
+  margin-top: 2px;
+}
+
+.btn--2 {
+  margin-top: 4px;
+}
+
+.btn--3 {
+  margin-top: 6px;
+}
+
+.btn--4 {
+  margin-top: 8px;
+}
+
+.empresa--btn {
+  font-size: 20px;
+}
+
+.quehacemos--btn {
+  font-size: 20px;
+}
+
+.capacitaciones--btn {
+  font-size: 20px;
+}
+
+.contacto--btn {
+  font-size: 20px;
+}
+
+/* Clases--------------------------------------------------------------------------------------------------------------------------------- */
+.h1 {
+  color: #A03E99;
+}
+
+.titulo {
+  color: #A03E99;
+}
+
+.title {
+  font-family: 'Montserrat';
+  font-size: 40px;
+}
+
+/* Colores y fondos separados-------------------------------------------------------------------------------------------------------------- */
+.bgBody {
+  background-color: #264653;
+}
+
+.bgW {
+  background-color: white;
+}
+
+.bgHeader {
+  background-color: #2a9d8f;
+}
+
+.carText {
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  font-weight: 100px;
+  text-shadow: grey;
+  font-weight: bold;
+}
+
+/* HEADER --------------------------------------------------------------------------------------------------------------------------------- */
+.header {
+  background-color: #2a9d8f;
+}
+
+.header .header__imagen {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-right: auto;
+  margin-left: 70px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.header .header__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  letter-spacing: 5px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.header .header__ul .header__colorW {
+  color: white;
+}
+
+.header .header__ul .header__link {
+  text-decoration: none;
+}
+
+.header .header__ul .header__linea {
+  border-left: 1px solid black;
+  margin-right: 5px;
+}
+
+/*FOOTER-------------------------------------------------------------------------------------------------------------------------------  */
+.footer {
+  background-color: #5dc8a5;
+  color: black;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.footer .footer__redes {
+  margin-left: 5px;
+}
+
+.footer .footer__titulo1 {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.footer .footer__titulo2 {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.ig {
+  margin-left: 10px;
+}
+
+/* INDEX ---------------------------------------------------------------------------------------------------------------------------------*/
+.index {
+  background-color: #264653;
+}
+
+.index .index__imagen {
+  height: 320px;
+  width: 361px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 12px;
+  margin-right: 15px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.index .index__imagen {
+  height: 320px;
+  width: 361px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 12px;
+  margin-right: 15px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.index .index__imagen {
+  height: 320px;
+  width: 361px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 12px;
+  margin-right: 15px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.index .index__imagen {
+  height: 320px;
+  width: 361px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 12px;
+  margin-right: 15px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.index .index__imagen:hover {
+  height: 420px;
+  width: 461px;
+}
+
+.index .imgCar {
+  width: 100%;
+  height: 450px;
+}
+
+.index .index__texto {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.index .index__colorW {
+  color: white;
+}
+
+.index .index__link {
+  text-decoration: none;
+}
+
+.index .index__titulo {
+  font-family: 'Montserrat';
+  font-size: 40px;
+}
+
+/* EMPRESA--------------------------------------------------------------------------------------------------------------------------------- */
+.empresa {
+  background-color: #264653;
+}
+
+.empresa .empresa__texto {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.empresa .empresa__imagen {
+  width: 440px;
+  height: 540px;
+  -webkit-transition: 2s;
+  transition: 2s;
+  border: 10px solid white;
+}
+
+.empresa .empresa__imagen:hover {
+  height: 640px;
+  width: 540px;
+}
+
+/* QUE HACEMOS?----------------------------------------------------------------------------------------------------------------------------- */
+.queHacemos {
+  background-color: #264653;
+}
+
+.queHacemos .queHacemos__table {
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.queHacemos .queHacemos__tablemob {
+  list-style: none;
+}
+
+.queHacemos .queHacemos__texto {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* CAPACITACIONES------------------------------------------------------------------------------------------------------------------------- */
+.capacitaciones {
+  border-top: 1px solid #264653;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2a9d8f), to(#264653));
+  background-image: linear-gradient(#2a9d8f, #264653);
+}
+
+.capacitaciones .capacitaciones__texto {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.capacitaciones .capacitaciones__carga {
+  border-collapse: collapse;
+}
+
+.capacitaciones .capacitaciones__boton {
+  background-color: #2a9d8f;
+  border-top: 60px;
+}
+
+.capacitaciones__imagen {
+  width: 100px;
+  height: 500px;
+  border: 10px solid white;
+  overflow: hidden;
+}
+
+.capacitaciones .capacitaciones__ul {
+  list-style: none;
+  background: rgba(255, 255, 255, 0.2);
+  font-weight: 100px;
+  text-shadow: grey;
+}
+
+/* CONTACTO ------------------------------------------------------------------------------------------------------------------------------*/
+.contacto {
+  background-color: #264653;
+}
+
+.contacto .formulario__texto {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contacto .formulario__padding {
+  padding-bottom: 10px;
+}
+
+.contacto .formulario__separador {
+  height: 20px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+input[type=checkbox] {
+  width: 20px;
+}
+
+input:focus {
+  width: 269px;
+  font-size: 24px;
+}
+
+/* MOBILE---------------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 375px) {
+  header {
+    font-size: 10px;
+  }
+  img.capacitaciones__imagen {
+    height: 350px;
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+  .imagen {
+    width: 330px;
+    height: 330px;
+  }
+  .imgSec {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    font-size: 29px !important;
+    justify-items: center;
+  }
+  .divFlex {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footUl {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  table.table {
+    width: 100%;
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

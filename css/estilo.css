@@ -279,8 +279,8 @@ a:active {
     margin-right: auto;
     flex-direction: column; }
   .capacitaciones .capacitaciones__imagen {
-    width: 80%;
-    height: 460px;
+    width: 85%;
+    height: 500px;
     transition: 2s;
     border: 10px solid white;
     overflow: hidden; }
@@ -289,7 +289,13 @@ a:active {
     background: rgba(255, 255, 255, 0.2);
     font-weight: 100px;
     text-shadow: grey; }
-
+  
+    .card-title{
+      color: #000;
+    }
+    .card-text{
+      color: #000;
+    }
 /* CONTACTO ------------------------------------------------------------------------------------------------------------------------------*/
 .contacto {
   background-color: #264653; }

@@ -1,0 +1,94 @@
+[
+  {
+    "id" : 1,
+    "nombre" : "Curso de liderazgo",
+    "precio": 5000,
+    "cantidad" : 50,
+    "imagen" : "../imagenes/liderazgo.jpg"
+  },
+  {
+    "id" : 2,
+    "nombre" : "Curso de gestión de cambio",
+    "precio": 2000,
+    "cantidad" : 10,
+    "imagen" : "../imagenes/cambio.jpg"
+  },
+  {
+    "id" : 3,
+    "nombre" : "Curso de negociación y resolución de problemas",
+    "precio": 3000,
+    "cantidad" : 15,
+    "imagen" : "../imagenes/negociacion.jpg"
+  },
+  {
+    "id" : 4,
+    "nombre" : "Curso clima laboral",
+    "precio": 5000,
+    "cantidad" : 50,
+    "imagen" : "../imagenes/climaLaboral.jpg"
+  },
+  {
+    "id" : 5,
+    "nombre" : "Curso de creatividad e innovación",
+    "precio": 5000,
+    "cantidad" : 50,
+    "imagen" : "../imagenes/creatividad.jpg"
+  },
+  {
+    "id" : 6,
+    "nombre" : "Curso de gestión de emociones",
+    "precio": 5000,
+    "cantidad" : 50,
+    "imagen" : "../imagenes/emociones.jpg"
+  },
+  {
+    "id" : 7,
+    "nombre" : "Curso de gestión de estrés y ansiedad",
+    "precio": 5000,
+    "cantidad" : 50,
+    "imagen" : "../imagenes/estres.jpg"
+  },
+  {
+    "id" : 8,
+    "nombre" : "Curso de relaciones interpersonales",
+    "precio": 5000,
+    "cantidad" : 50,
+    "imagen" : "../imagenes/interpersonales.jpg"
+  },
+  {
+    "id" : 9,
+    "nombre" : "Curso de comunicación estratégica",
+    "precio": 5000,
+    "cantidad" : 50,
+    "imagen" : "../imagenes/comunicacionEstrategica.jpg"
+  },
+  {
+    "id" : 10,
+    "nombre" : "Curso de trabajo en equipo",
+    "precio": 5000,
+    "cantidad" : 50,
+    "imagen" : "../imagenes/equipo.jpg"
+  },
+  {
+    "id" : 11,
+    "nombre" : "Curso de motivación para equipos",
+    "precio": 5000,
+    "cantidad" : 50,
+    "imagen" : "../imagenes/motivacion.jpg"
+  },
+  {
+    "id" : 12,
+    "nombre" : "Curso de atención al cliente",
+    "precio": 5000,
+    "cantidad" : 50,
+    "imagen" : "../imagenes/atencionCliente.jpg"
+  },
+  {
+    "id" : 13,
+    "nombre" : "Curso de cómo lograr metas",
+    "precio": 5000,
+    "cantidad" : 50,
+    "imagen" : "../imagenes/liderazgo.jpg"
+  }
+]
+
